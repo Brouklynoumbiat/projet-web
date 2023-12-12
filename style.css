@@ -1,0 +1,38 @@
+/*
+element {
+    propriete: valeur;
+}
+
+
+element (body, p, div) ce sont les balises
+.ma-class (représenté dans le HTML : class="ma-class")
+#mon-id (représenté dans le HTML : id="mon-id")
+
+*/
+body {
+  background-color: aliceblue;
+  box-sizing: border-box;
+}
+
+h2 {
+  padding: 10px;
+  background-color: #af6259;
+
+  border-radius: 20px;
+}
+
+.titre-page {
+  color: #af6259;
+}
+h3 {
+  color: cadetblue;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.item {
+  flex: 0 0 calc(50% - 20px);
+  box-sizing: border-boxs;
+}
